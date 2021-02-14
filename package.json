@@ -1,0 +1,21 @@
+{
+  "name": "manga-effect-extension",
+  "version": "1.0.0",
+  "description": "manga effect web extension",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [
+    "web",
+    "extension"
+  ],
+  "author": "Devcker <kami25565@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.39.0",
+    "rollup-plugin-chrome-extension": "^3.5.2",
+    "rollup-plugin-empty-dir": "^1.0.4"
+  }
+}

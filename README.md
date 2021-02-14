@@ -1,0 +1,1 @@
+# Manga Effect Web Extension

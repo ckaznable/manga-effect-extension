@@ -1,0 +1,42 @@
+img._manga-ext {
+  position: fixed;
+  z-index: 2147483648;
+}
+
+img._manga-ext.shake {
+  animation: _manga-ani-shake 0.4s;
+  animation-iteration-count: infinite;
+}
+
+img._manga-ext.up-shake {
+  animation: _manga-ani-upshake 0.6s;
+  animation-iteration-count: infinite;
+}
+
+img._manga-ext.down2up {
+  animation: _manga-ani-down2up 0.2s;
+}
+
+@keyframes _manga-ani-shake {
+  0% { transform: translate(1px, 1px) }
+  30% { transform: translate(-1px, 4px) }
+  50% { transform: translate(1px, -2px) }
+  70% { transform: translate(-1px, 1px) }
+  100% { transform: translate(2px, -2px) }
+}
+
+@keyframes _manga-ani-down2up {
+  0% { transform: translate(0px, 30px) }
+  60% { transform: translate(0px, -10px) }
+  80% { transform: translate(0px, 0px) }
+}
+
+@keyframes _manga-ani-upshake {
+  0% { transform: translate(0px, 10px) }
+  50% { transform: translate(0px, 0px) }
+  60% { transform: translate(1px, 1px) }
+  75% { transform: translate(-1px, 4px) }
+  80% { transform: translate(1px, -2px) }
+  90% { transform: translate(-1px, 1px) }
+  100% { transform: translate(2px, -2px) }
+}
