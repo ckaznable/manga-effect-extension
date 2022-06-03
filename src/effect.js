@@ -11,6 +11,7 @@ function getEffectImage({classes, src, top, left, style}={classes:[], src:"", to
   dom.src = src
   dom.style.top = `${top}px`
   dom.style.left = `${left}px`
+  dom.style.pointerEvents = "none"
 
   if(style) {
     for (const key in style) {
