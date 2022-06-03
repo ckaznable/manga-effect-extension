@@ -1,16 +1,7 @@
 {
-  "name": "manga effect",
+  "name": "Manga Effect Extension",
   "background": {
-    "scripts": ["src/background.js"]
-  },
-  "browser_action": {
-    "default_icon": {
-      "16": "assets/icon/icon-16.png",
-      "32": "assets/icon/icon-32.png",
-      "48": "assets/icon/icon-48.png",
-      "96": "assets/icon/icon-96.png",
-      "128": "assets/icon/icon-128.png"
-    }
+    "service_worker": "src/background.js"
   },
   "content_scripts": [
     {
@@ -31,10 +22,10 @@
     "96": "assets/icon/icon-96.png",
     "128": "assets/icon/icon-128.png"
   },
-  "manifest_version": 2,
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "permissions": ["http://*/*", "https://*/*"],
-  "web_accessible_resources": [
-    "assets/images/*"
-  ]
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "web_accessible_resources": [{
+    "resources": ["assets/images/*.png"],
+    "matches": ["http://*/*", "https://*/*"]
+  }]
 }
