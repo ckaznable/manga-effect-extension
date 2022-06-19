@@ -8,9 +8,9 @@ image use by https://dddfont.com/
 
 download this repository and enter directory then type the command:
 
-> npm i
+`npm install`
 
-> npm run build
+`npm run build`
 
 open chrome and open the url chrome://extensions/ then enable the "Developer mode".
 
