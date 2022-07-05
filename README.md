@@ -20,4 +20,4 @@ click "Load unpacked" select dist directory.
 
 Follow the link below to install the latest deployed version for your web browser.
 
-![Google Extension Store](https://chrome.google.com/webstore/detail/manga-effect-extension/ckcjebalemngnokckbapbfmghlflhdpn)
+[Google Extension Store](https://chrome.google.com/webstore/detail/manga-effect-extension/ckcjebalemngnokckbapbfmghlflhdpn)
