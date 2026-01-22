@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "rollup": "^3.29.5",
-    "rollup-plugin-chrome-extension": "^3.6.9",
+    "rollup-plugin-chrome-extension": "^3.6.15",
     "rollup-plugin-empty-dir": "^1.0.5"
   }
 }
