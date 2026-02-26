@@ -15,7 +15,7 @@
   "author": "Devcker <kami25565@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^3.29.5",
+    "rollup": "^3.30.0",
     "rollup-plugin-chrome-extension": "^3.6.15",
     "rollup-plugin-empty-dir": "^1.0.5"
   }
